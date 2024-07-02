@@ -254,9 +254,11 @@ function Profile:SkillTable(Data,Target,ClassTypeID)
 		{
 			["Type"] = 1, ["Name"] = "Camouflage", ["ID"] = 16140, ["Range"] = 0, ["TargetCast"] = false, ["SettingValue"] = self.GetSettingsValue(ClassTypeID,"CDs") == 1, ["OtherCheck"] = PlayerHP < 80 and PlayerInCombat == true,
 		},
+		--[[
 		{
 			["Type"] = 1, ["Name"] = "Heart of Light", ["ID"] = 16160, ["Range"] = 0, ["TargetCast"] = false, ["SettingValue"] = self.GetSettingsValue(ClassTypeID,"CDs") == 1, ["OtherCheck"] = PlayerHP < 75 and PlayerInCombat == true,
 		},
+		--]]
 		{
 			["Type"] = 1, ["Name"] = "Nebula", ["ID"] = 16148, ["Range"] = 0, ["TargetCast"] = false, ["SettingValue"] = self.GetSettingsValue(ClassTypeID,"CDs") == 1, ["OtherCheck"] = PlayerHP < 50 and PlayerInCombat == true,
 		},
